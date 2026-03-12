@@ -1,0 +1,53 @@
+name: screen_recorder_app
+description: "A comprehensive mobile screen recording application"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  provider: ^6.1.2
+
+  # Permissions
+  permission_handler: ^11.3.1
+
+  # File & Storage
+  path_provider: ^2.1.4
+  path: ^1.9.0
+
+  # Video
+  video_player: ^2.9.2
+
+  # Share
+  share_plus: ^10.1.4
+
+  # Utils
+  intl: ^0.19.0
+  uuid: ^3.0.7
+  ed_screen_recorder: ^0.0.15
+  flutter_background_service: ^5.1.0
+  device_info_plus: ^11.3.0
+  flutter_local_notifications: ^19.5.0
+  system_alert_window: ^2.0.7
+  flutter_overlay_window: ^0.5.0
+  get_thumbnail_video: ^0.7.3
+  timeago: ^3.7.1
+  ffmpeg_kit_flutter_video: ^6.0.3
+  camera: ^0.11.2
+  screenshot: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
